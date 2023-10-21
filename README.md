@@ -30,6 +30,6 @@ Este se encarga de mostrar mediante dos  visualizadores de 7 segmentos los numer
 
 
 ### Hola
-**Hola como estas **
+**Hola como estas**
 documentacion
-:tw-1f1f9:
+

@@ -19,10 +19,6 @@ imagen de la parte 1
 
 ------------
 
-### Hola
-**Hola como estas **
-documentacion
-:tw-1f1f9:
 
 Diseñamos un contador de 0 a 99 utilizando dos displays de 7 segmentos y tres botones para controlar la cuenta. Implementamos la técnica de multiplexación para mostrar los dígitos en los displays. El contador comienza en 0  y  es capaz de aumentar o disminuir su valor en una unidad con los botones.
 
@@ -32,3 +28,8 @@ Diseñamos un contador de 0 a 99 utilizando dos displays de 7 segmentos y tres b
 
 Este se encarga de mostrar mediante dos  visualizadores de 7 segmentos los numeros del 0 al 99, el contador comienza en 0  y  es capaz de aumentar o disminuir su valor en una unidad con los botones.
 
+
+### Hola
+**Hola como estas **
+documentacion
+:tw-1f1f9:

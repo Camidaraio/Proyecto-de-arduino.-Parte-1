@@ -9,8 +9,7 @@
 - Dominguez Franco.
 
  
-#### Proyecto contador Binario.
-
+#### Proyecto visualizador 7 segmentos 
 ------------
 
 imagen de la parte 1

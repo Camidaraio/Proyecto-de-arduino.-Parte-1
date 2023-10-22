@@ -47,31 +47,57 @@ Para lograr esta interacción, se utilizan las directivas `#define` para asignar
 En resumen, este proyecto ofrece la posibilidad de interactuar con un contador mediante botones, mostrando su valor en un visualizador de 7 segmentos. 
 
 ```cpp
-
-void prendeDigito(int digito)
-{
-	if(digito == UNIDAD)
-    {
-    	digitalWrite(UNIDAD, LOW);
-        digitalWrite(DECENA, HIGH);
-		delay(TIMEDISPLAYON);
-    }
-  	else if(digito == DECENA)
-    {
-    	digitalWrite(UNIDAD, HIGH);
-        digitalWrite(DECENA, LOW);
-		delay(TIMEDISPLAYON);
-    }
-  	else
-    {
-    	digitalWrite(UNIDAD, HIGH);
-        digitalWrite(DECENA, HIGH);
-
-    }
+int keypressed(void)
+ { 
+  sube = digitalRead(SUBE);
+  baja = digitalRead(BAJA);
+  reset = digitalRead(RESET);
+  if (sube)
+    subePrevia = 1;
+  if (baja)
+    bajaPrevia = 1;
+  if (reset)
+   	resetPrevia = 1;
+  	
   
-  
-}
+  		if(sube==0 && sube != subePrevia)
+        {
+          subePrevia = sube;
+          return SUBE;	
+
+        }
+        if (baja==0 && baja != bajaPrevia)
+        {
+          bajaPrevia = baja;
+          return BAJA;	
+
+        }
+  		if (reset==0 && reset != resetPrevia)
+        {
+          resetPrevia = reset;
+          return RESET;	
+
+        }
+  return 0;
+
+ }
 ```
+
+
+###### Link del proyecto
+
+------------
+
+- https://www.tinkercad.com/things/hS7V3jaA7VD-tp1/editel?sharecode=8T8Djker7NP19s83TMYoen_RNtnQ6ErSrWdhAsP6L48
+
+
+------------
+
+###### Fuentes
+
+- https://www.youtube.com/watch?v=_Ry7mtURGDE&t=1927s
+
+------------
 
 
 

@@ -12,7 +12,7 @@
 #### Proyecto visualizador 7 segmentos 
 ------------
 
-imagen de la parte 1
+[![Captura-de-pantalla-2023-10-20-122519.png](https://i.postimg.cc/vHwfjcZj/Captura-de-pantalla-2023-10-20-122519.png)](https://postimg.cc/0rZzK5md)
 
 ####  Descripcion
 

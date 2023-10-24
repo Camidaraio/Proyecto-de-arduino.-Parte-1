@@ -6,7 +6,6 @@
 
 ------------
 - Daraio Camila.
-- Dominguez Franco.
 
  
 #### Proyecto visualizador 7 segmentos 
